@@ -11738,3 +11738,23 @@ html {
   }
 }
 
+@media (max-width: 480px) {
+
+  .img-fluid {
+    height: auto;
+    max-width: 35%;
+    padding-right: 10%;
+  }
+  .fw-bolder {
+    font-size: smaller;
+  }
+
+  .parrafo-interno {
+    font-size: x-small;
+  }
+
+  .mb-0 {
+  font-size: 28px; 
+  }
+
+}
