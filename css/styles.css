@@ -122,10 +122,13 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
+
+
 @media (min-width: 1200px) {
   h1, .h1 {
     font-size: 2.5rem;
   }
+  
 }
 
 h2, .h2 {
@@ -1933,6 +1936,41 @@ progress {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
+
+@media (max-width: 320px) {
+
+
+  
+  .img-fluid {
+    height: auto;
+    max-width: 20%;
+    align-items: right;
+  }
+
+  .fw-bolder {
+    font-size: 10px;
+    text-align: left;
+  }
+
+  .parrafo-interno {
+    font-size: 8px;
+    text-align: left;
+  }
+
+  .mb-0 {
+  font-size: 22px; 
+  }
+
+  .d-inline {
+    font-size: larger;
+  }
+
+  .mb-5 {font-size: 27px;
+          text-align: center;
+  }
+
+
+  }
 
 @media (max-width: 575.98px) {
   .table-responsive-sm {
@@ -7498,6 +7536,7 @@ textarea.form-control-lg {
 
 .m-0 {
   margin: 0 !important;
+  text-align: center;
 }
 
 .m-1 {
@@ -11735,25 +11774,7 @@ html {
     width: 1.5vw;
     left: -2vw;
   }
-}
+  
+  }  
 
-@media (max-width: 480px) {
 
-  .img-fluid {
-    height: auto;
-    max-width: 35%;
-    padding-right: 10%;
-  }
-  .fw-bolder {
-    font-size: smaller;
-  }
-
-  .parrafo-interno {
-    font-size: x-small;
-  }
-
-  .mb-0 {
-  font-size: 28px; 
-  }
-
-}
